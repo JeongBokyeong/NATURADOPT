@@ -1,0 +1,76 @@
+.Search__01{
+    width: 100%;
+    position: relative;
+}
+.tutorialMain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    /* overflow: hidden; */
+}
+.tutorialMain .searchCon {
+    position: absolute;
+    top: 9%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: white; */
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
+.searchCon {
+    position: absolute;
+    width: 17%;
+    margin-left: 2.4%;
+    margin-top: 0.3%;
+    top: 9%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: white; */
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
+.headerSearch {
+    width: 100%;
+    padding: 30px 30px 20px 30px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.SearchContainer {
+    border-radius: 30px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280%;
+}
+.SearchInput {
+    padding-left: 30px;
+    flex: 1;
+    border: none;
+    background: none;
+    height: 60px;
+}
+.SearchInput:focus {
+    outline: none;
+} 
+ li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+ }
+ /*  */

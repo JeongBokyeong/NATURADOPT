@@ -1,0 +1,33 @@
+.TutorialChatImg{
+    width:100%; 
+    position:absolute;
+    top: 0;
+}
+.TutorialChat{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.TutorialChat > img:nth-child(2){
+    opacity: 0;
+}
+.TutorialChat > img:nth-child(2):hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 3s ease;
+}
+.Chatbot{
+    position:relative;;
+    max-width: fit-content;
+    width:100%;
+    left: 50%;
+    top:20%;
+}
+.chatBox {
+    position:absolute;
+    opacity: 0;
+    width: 61%;
+    top: 107%;
+    left: 40%;
+}
+
